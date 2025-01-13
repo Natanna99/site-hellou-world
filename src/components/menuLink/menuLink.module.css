@@ -1,0 +1,15 @@
+.link {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: var(--primary-font-color);
+}
+
+.linkSelected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 120px;
+  background-color: var(--dark-blue);
+  color: var(--white);
+}

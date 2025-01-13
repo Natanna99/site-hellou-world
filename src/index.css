@@ -1,0 +1,52 @@
+:root {
+  --dark-blue: #041833;
+  --medium-blue: #1875e8;
+  --primary-font-color: #041833;
+  --post-font-color: #444444;
+  --white: #fff;
+
+  --primary-font: "Raleway", sans-serif;
+  --secondary-font: "Playfair Display", sans-serif;
+
+  font-family: var(--primary-font);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: minmax(0, 1fr);
+  min-height: 100vh;
+}
+
+a,
+button,
+input,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 5rem;
+}

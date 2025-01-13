@@ -1,0 +1,13 @@
+.navigationMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  column-gap: 3rem;
+}
+
+@media screen and (min-width: 744px) {
+  .navigationMenu {
+    height: 112px;
+  }
+}
