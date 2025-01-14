@@ -1,0 +1,88 @@
+.containerBanner {
+  /* display: flex; */
+  background: var(--dark-blue);
+  color: var(--white);
+  padding: 2rem 1rem;
+  font-family: var(--secondary-font);
+}
+
+.title {
+  font-size: 4rem;
+  line-height: 5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.containerButton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.containerProfile {
+  display: flex;
+  margin: 0rem 0rem 0rem 1rem;
+}
+
+.circleBackground {
+  width: 70%;
+  margin-bottom: 3rem;
+}
+
+.profile {
+  width: 55%;
+  height: 55%;
+  border-radius: 50%;
+  position: relative;
+  top: 85px;
+  right: 35%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 744px) {
+  .containerBanner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .containerButton {
+    display: none;
+  }
+
+  .title {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+
+  .containerProfile {
+    align-items: center;
+    margin: 0rem 0rem 0rem 1rem;
+  }
+
+  .profile {
+    width: 50%;
+    height: 45%;
+    top: 65px;
+    right: 35%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .containerBanner {
+    padding: 3rem 7.5rem 6.25rem;
+    gap: 2rem;
+  }
+
+  .profile {
+    width: 60%;
+    height: 60%;
+    top: 88px;
+    right: 30%;
+  }
+}
