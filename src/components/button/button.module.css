@@ -1,0 +1,9 @@
+.buttonBanner {
+  color: var(--white);
+  background: var(--medium-blue);
+  border: none;
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  font-family: var(--primary-font);
+  font-size: 1rem;
+}
