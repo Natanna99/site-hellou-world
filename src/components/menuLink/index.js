@@ -1,17 +1,15 @@
-import { Link, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import style from "./menuLink.module.css";
 
 export function MenuLink({ infoLink, url }) {
-  const location = useLocation();
-
   return (
-    <Link
+    <NavLink
       to={url}
-      className={`${style.link} ${
-        location.pathname === url ? style.linkSelected : ""
-      }`}
+      className={({ isActive }) =>
+        `${style.link} ${isActive ? style.linkSelected : ""}`
+      }
     >
       {infoLink}
-    </Link>
+    </NavLink>
   );
 }
