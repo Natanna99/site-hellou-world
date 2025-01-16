@@ -1,5 +1,4 @@
 .containerBanner {
-  /* display: flex; */
   background: var(--dark-blue);
   color: var(--white);
   padding: 2rem 1rem;
