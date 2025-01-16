@@ -1,0 +1,47 @@
+.containerPost {
+  color: var(--post-font-color);
+  position: relative;
+}
+
+.imgBackground {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.title {
+  font-family: var(--secondary-font);
+  padding: 0 1rem;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.imgBackground,
+.title {
+  height: 104px;
+}
+
+.postInfo {
+  padding: 2rem 1rem 1.5rem;
+}
+
+@media screen and (min-width: 1220px) {
+  .imgBackground,
+  .title {
+    height: 154px;
+  }
+
+  .title {
+    padding: 0 7.5rem;
+    font-size: 3rem;
+  }
+
+  .postInfo {
+    padding: 2rem 7.5rem 1.5rem;
+  }
+}
