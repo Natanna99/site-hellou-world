@@ -11,7 +11,9 @@ export function Card({ info }) {
       <div className={style.containerInfo}>
         <h4>{info?.titulo}</h4>
         <div className={style.containerButtonCard}>
-          <Button>Ler</Button>
+          <Button onClick={() => (window.location.href = `/posts/${info?.id}`)}>
+            Ler
+          </Button>
         </div>
       </div>
     </div>
