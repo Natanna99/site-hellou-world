@@ -1,0 +1,109 @@
+.containerError {
+  background: var(--dark-blue);
+  color: var(--white);
+  padding: 2rem 1rem;
+  font-family: var(--secondary-font);
+  height: 840px;
+}
+
+.textError {
+  font-size: 5rem;
+  text-align: center;
+  color: var(--medium-blue);
+  margin-bottom: 2rem;
+}
+
+.subTextError {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.descriptionError {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.containerButton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.containerImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  /* height: 50px; */
+  /* bottom: 300px; */
+}
+
+.imageError {
+  margin: 40px;
+}
+
+.containerWhite {
+  height: 53vw;
+}
+
+@media screen and (min-width: 744px) {
+  .containerError {
+    height: 600px;
+  }
+
+  .containerButtonImage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .containerButton {
+    flex: 1;
+    width: 500px;
+    height: 60px;
+  }
+
+  .containerImage {
+    flex: 1;
+  }
+
+  .containerWhite {
+    height: 53vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* .containerError {
+    height: 400px;
+  } */
+
+  .containerInfoError {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .descriptionError {
+    width: 60%;
+  }
+  .containerImage {
+    margin: 120px;
+    /* bottom: 90px; */
+    height: 263px;
+  }
+
+  .containerButtonImage {
+    margin: 0px 120px 0px 120px;
+  }
+
+  .imageError {
+    margin: 0px 0px 0px 5px;
+  }
+
+  .containerWhite {
+    height: 40vh;
+  }
+}
