@@ -10,9 +10,9 @@ export function Banner() {
       <div className={style.containerText}>
         <h1 className={style.title}>Olá, mundo!</h1>
         <p className={style.subtitle}>
-          Boas vindas ao meu espaço pessoal! Eu sou Antônio Evaldo, instrutor de
-          Front-end da Alura. Aqui compartilho vários conhecimentos, espero que
-          aprenda algo novo :)
+          Boas vindas ao meu espaço pessoal! Eu me chamo Natanna Rocha, sou
+          Junior Software Engineer na CESAR. Aqui compartilho vários
+          conhecimentos, espero que aprenda algo novo :)
         </p>
       </div>
 
