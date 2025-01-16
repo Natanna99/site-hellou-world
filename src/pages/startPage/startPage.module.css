@@ -1,15 +1,15 @@
 .containerBody {
   display: flex;
   position: relative;
-  bottom: 69px;
+  bottom: 4.313rem;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
-  margin: 50px;
+  gap: 1.25rem;
+  margin: 3.125rem;
 }
 
 @media screen and (min-width: 768px) {
   .containerBody {
-    bottom: 86px;
+    bottom: 5.375rem;
   }
 }

@@ -39,7 +39,7 @@
   height: 55%;
   border-radius: 50%;
   position: relative;
-  top: 85px;
+  top: 5.313rem;
   right: 35%;
   object-fit: cover;
 }
@@ -67,7 +67,7 @@
   .profile {
     width: 50%;
     height: 45%;
-    top: 65px;
+    top: 4.063rem;
     right: 35%;
   }
 }
@@ -81,7 +81,7 @@
   .profile {
     width: 60%;
     height: 60%;
-    top: 88px;
+    top: 5.5rem;
     right: 30%;
   }
 }

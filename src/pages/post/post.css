@@ -42,7 +42,7 @@
   margin-bottom: 1.5rem;
   padding: 1rem;
   background-color: #eaeaea;
-  border-radius: 5px;
+  border-radius: 0.313rem;
 }
 
 .post-markdown-container pre {
@@ -52,7 +52,7 @@
 .containerCard {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 1.25rem;
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;

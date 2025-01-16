@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 1.25rem;
   background: var(--dark-blue);
   color: var(--white);
-  height: 83px;
+  height: 5.188rem;
 }

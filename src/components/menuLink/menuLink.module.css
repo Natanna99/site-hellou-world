@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  width: 120px;
+  width: 7.5rem;
   background-color: var(--dark-blue);
   color: var(--white);
 }

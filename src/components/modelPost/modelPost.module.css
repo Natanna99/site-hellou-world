@@ -23,7 +23,7 @@
 
 .imgBackground,
 .title {
-  height: 104px;
+  height: 104rem;
 }
 
 .postInfo {
@@ -33,7 +33,7 @@
 @media screen and (min-width: 1220px) {
   .imgBackground,
   .title {
-    height: 154px;
+    height: 9.625rem;
   }
 
   .title {
